@@ -14,17 +14,17 @@ export class QuoteDetailsComponent implements OnInit {
   }
 
   quotes:Quote[]=[
-    new Quote("Domie Don","Kiprono", "If love is not us then we have no God!", new Date()),
+    new Quote("Miss Powers","Agnes", "I am no bird; and no net ensnares me: I am a free human being with an independent will.", new Date()),
 
-    new Quote("Charles Filmx","Dalai", "“Where ignorance is our master, there is no possibility of real peace.” ", new Date()),
+    new Quote("Amy Poehler","Yes please", "I believe great people do things before they are ready ", new Date()),
 
-    new Quote("Ivy Kaimenyi","Prof. Lumumba", "We cannot run a country where virtue is vice and vice is a virtue.” ", new Date()),
+    new Quote("Mary Shelley","Mary", "The beginning is always today ", new Date()),
 
-    new Quote("Mtetezi","Dr. Miguna Miguna", "The provision of basic services to the people is not a privilege. Nor is it a charitable act. The people already paid for the services via the high taxes", new Date()),
+    new Quote("Maya Angelou","Powers", "Life's a bitch. You've got to go out and kick ass", new Date()),
 
-    new Quote("Shalom Ben","Dalai", "“Where ignorance is our master, there is no possibility of real peace.” ", new Date()),
+    new Quote("Joyce Carol","Powers", "In love there are two things—bodies and words ", new Date()),
 
-    new Quote("Marlin Genie","Dalai", "The belief in a supernatural source of evil is not necessary; men alone are quite capable of every wickedness", new Date())
+    new Quote("Agnes Nafula","Powers", "The beauty of being a feminist is that you get to be whatever you want. And that’s the point", new Date())
   ]
   totalVotes:number=0
   countUpvote(i:number){
@@ -40,7 +40,7 @@ export class QuoteDetailsComponent implements OnInit {
   }
   myDeletes(deletes:boolean,index:number){
     if (deletes){
-      let toDelete = confirm(`Are you sure you want to delete ${this.quotes [index].name}?`)
+      let toDelete = confirm(`You sure want to delete? ${this.quotes [index].name}?`)
       if (toDelete){
         this.quotes.splice(index,1)
       }
