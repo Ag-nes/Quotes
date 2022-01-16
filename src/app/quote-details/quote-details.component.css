@@ -1,0 +1,41 @@
+.container-fluid{
+    background-color: lightgray !important;
+    /* padding: 30px 0px 10px 10px; */
+    /* display: flex; */
+    /* width: 50%; */
+}
+p{
+    font-size: normal;
+}
+#quote-styles{
+    background-color: rgb(243, 239, 239) !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
+}
+
+.content{
+    /* width: 30%; */
+    width: 30%;
+    margin: 30px;
+    border: 0.05px solid black;
+    padding: 20px;
+    /* float: left; */
+    /* background-color: lightgray; */
+    height: 330px;
+    border-radius: 6px;
+    transition: transform 1s ease-in-out;
+}
+#name{
+    font-weight: bold;
+}
+span{
+    color: red;
+}
+.content:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    transform: translateY(10px);
+}

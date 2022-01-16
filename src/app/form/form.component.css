@@ -1,0 +1,72 @@
+input{
+    width: 80%;
+}
+.display{
+    background-color: blue;
+    width: fit-content;
+    color: white;
+    font-weight: bold; padding: 20px;
+}
+input{
+    margin: 20px;
+    height: 2.4em;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+textarea{
+    margin: 20px;
+    padding: 10px;
+    background-color: beige;
+    color: black;
+    font-weight: normal;
+}
+textarea:hover{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+button{
+    margin-right: 50%;
+}
+.icons i{
+    font-weight: bold;
+    font-size:large;
+    padding: 20px;
+    color: blue;
+}
+.icons .fa-facebook:hover{
+    background-color: blue;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+}
+.icons .fa-instagram:hover{
+    background-color: blue;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+}
+.icons .fa-linkedin-square:hover{
+    background-color: blue;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+}
+.icons .fa-youtube-play:hover{
+    background-color: blue;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+}
+.icons .fa-skype:hover{
+    background-color: blue;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+}

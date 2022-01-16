@@ -1,0 +1,28 @@
+<app-form (formInputDetails)="finalFunction($event)"></app-form>
+<div class="container-fluid" id="quote-styles">
+  <div class="content" *ngFor="let quote of quotes; let i=index">
+  <p id="name">Posted By: {{quote.name}}</p>
+  <p>Author: {{quote.author}}</p>
+  <p appQuoteHighlight *ngIf="quote.upvoteCount===totalVotes && quote.upvoteCount>0" >Quote: {{quote.quote}}</p>
+  <app-main-quote [myQuote]="quote"></app-main-quote>
+  <p>Posted on: {{quote.timePosted | date}}</p>
+  <p>Time taken:<span>{{quote.timePosted | postedDuration}} days ago</span></p>
+  <div>
+    <div class="row">
+      <div class="col-md-4">
+        <!-- <app-upvote></app-upvote> -->
+        <button class="btn btn-primary" (click)="countUpvote(i)"><i class="fa fa-thumbs-up"></i>Upvote  {{quote.upvoteCount}}</button>
+      </div>
+      <div class="col-md-4">
+        <app-downvote></app-downvote>
+      </div>
+      <div class="col-md-4">
+          <app-delete (deletes)="myDeletes($event,i)" ></app-delete>
+      </div>
+    </div>
+  </div>
+  </div>  
+</div>
+<div class="copyright">
+  <p style="background-color: white; text-align: center; font-weight: bold;" ><i class="fa fa-copyright" style="font-weight: bold;"></i>2022 SpiceQuotes</p>
+</div>
