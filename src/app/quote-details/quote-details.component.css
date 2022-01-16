@@ -1,5 +1,6 @@
 .container-fluid{
-    background-color: lightgray !important;
+
+    background-color: sienna !important;
     /* padding: 30px 0px 10px 10px; */
     /* display: flex; */
     /* width: 50%; */
@@ -8,7 +9,7 @@ p{
     font-size: normal;
 }
 #quote-styles{
-    background-color: rgb(243, 239, 239) !important;
+    background-color: sienna !important;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
