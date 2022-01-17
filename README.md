@@ -1,11 +1,8 @@
 # QuotesApp
 
-
 ## Author
-
 [Agnes Okutoyi]
 ## Description
-
 This is Agular CLI application that allows a user to view quotes,down vote up vote and add their favorite quotes.
 
 ## Live Page 
@@ -36,6 +33,7 @@ This is Agular CLI application that allows a user to view quotes,down vote up vo
 * Angular CLI
 * HTML 
 * CSS 
+* Bootstrap
 * Typescript
 * Generated with [Angular CLI](https://github.com/angular/angular-cli) 
 
