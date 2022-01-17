@@ -11,10 +11,6 @@ This is Agular CLI application that allows a user to view quotes,down vote up vo
 ## Live Page 
  
 
-Composed of two main components.
-* `Search Users` -search for users on git-hub based on their usernames.
-* `Search Repositories` -search for repositories on git-hub based on their authoers name.
-
 ## BDD ##
 | Behavior                  | Input                     | Output                    |
 | ------------------------- | ------------------------- | ------------------------- |
