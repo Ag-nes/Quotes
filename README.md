@@ -16,9 +16,9 @@ This is Agular CLI application that allows a user to view quotes,down vote up vo
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ``````
+* git clone ```git@github.com:Ag-nes/Quotes.git```
 
-* cd Git-Search
+* cd Quotes
 
 * code . or atom . based on the text editor you have.
 
