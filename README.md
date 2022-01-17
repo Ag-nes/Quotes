@@ -6,6 +6,7 @@
 This is Agular CLI application that allows a user to view quotes,down vote up vote and add their favorite quotes.
 
 ## Live Page 
+```ag-nes.github.io/quotes/```
  
 
 ## BDD ##
