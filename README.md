@@ -39,8 +39,7 @@ Composed of two main components.
 
 * Angular CLI
 * HTML 
-* CSS
-* Bootstrap 
+* CSS 
 * Typescript
 * Generated with [Angular CLI](https://github.com/angular/angular-cli) 
 
