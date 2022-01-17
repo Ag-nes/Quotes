@@ -1,26 +1,53 @@
-# Quotes App
+# QuotesApp
+
+
 ## Author
-Nafula Okutoyi
+
+[Agnes Okutoyi]
 ## Description
-Quotes App allows users to to view quotes in the web upvote or downvote  quotes posted by other users and can delete.
-### Prerequisites
-You need to have git,angular CLI installed
-You can install it with the following command in your terminal
-`$ sudo apt install git-all`
-`$ npm install -g @angular/cli`
 
+This is Agular CLI application that allows a user to view quotes,down vote up vote and add their favorite quotes.
 
-### Setup
-To access this project on your local files, you can clone it using these steps
-1. Open your terminal
-1. Use this command to clone `$  'https://dkorir.github.io/Quotes-App/'
-1. This will clone the repositoty into your local folder
-1. _Enjoy :)_
-### Technologies Used
-1. HTML
-1. CSS
-1. Git
-1. Bootstrap
-1. JavaScript
-1. jQuery
-1. AngularJs
+## Live Page 
+ 
+
+Composed of two main components.
+* `Search Users` -search for users on git-hub based on their usernames.
+* `Search Repositories` -search for repositories on git-hub based on their authoers name.
+
+## BDD ##
+| Behavior                  | Input                     | Output                    |
+| ------------------------- | ------------------------- | ------------------------- |
+| Enter your name |Enter the Authors name | Write your favorite quote and post..|Read Quote,vote or delete |
+
+## Installation / Setup instruction
+* Open Terminal {Ctrl+Alt+T}
+
+* git clone ``````
+
+* cd Git-Search
+
+* code . or atom . based on the text editor you have.
+
+* Run ng serve for a dev server. 
+
+* Navigate to http://localhost:4200/. 
+
+* `npm install && ng serve`
+
+## Technology used ##
+
+* Angular CLI
+* HTML 
+* CSS
+* Bootstrap 
+* Typescript
+* Generated with [Angular CLI](https://github.com/angular/angular-cli) 
+
+## Contact Information 
+
+If you have any question or contributions, please email me at [faithagnes2@gmail.com]
+
+## License
+* *MIT License:*
+* Copyright (c) 2022 **Agnes Nafula**
